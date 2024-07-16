@@ -19,6 +19,11 @@
     justify-content: space-between;
 }
 
+.search,
+.search-result{
+    width: 361px;
+}
+
 .search {
     width: 361px;
     height: var(--search-height);
@@ -56,6 +61,8 @@
         border-color: rgba(22, 24, 35, 0.2);
     }
 }
+
+
 .clear,
 .loading {
     position: absolute;
@@ -80,3 +87,20 @@
     }
 }
 
+.search-title{
+    font-size: 1.4rem;
+    font-weight: 600;
+    padding: 5px 12px;
+    color: rgba(22, 24, 35, 0.2);
+}
+.more-btn{
+    font-size: 2rem;
+    margin-left: 28px;
+    padding: 4px 8px;
+    background-color: transparent;
+}
+
+// Menu 
+.menu-items{ 
+    width: 224px;
+}
